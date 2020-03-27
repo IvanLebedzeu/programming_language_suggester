@@ -1,4 +1,10 @@
 $(document).ready(function() {
+
+  $("#myBtn1").click(function(){
+    $("#startQuiz").show();
+    event.preventDefault(); 
+  });
+
   $("form#formOne").submit(function(event) {
     event.preventDefault();
 
@@ -26,5 +32,7 @@ $(document).ready(function() {
     $(".fullname").append(userName);
   
   });
+
+  
 
 });
