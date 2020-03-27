@@ -11,145 +11,147 @@
     <div class = "container">
 
       <h1>Programming Languages Quiz</h1>
+      <img class = "mainImage" src = "https://cdn.blog.psafe.com/en/blog/wp-content/uploads/2016/10/BLOG_EN_0510_Most-Useful-Coding-and-Programming-Languages-to-Know.jpg" alt = "Programming Languages">
       <h2>Please press Start Quiz button to start the Quiz</h2>
+      <div style="text-align: center;">
       <button type = "button" class = "btn btn-info btn-lg" id = "myBtn1">Start Quiz!</button>
+      </div>
       <div id = "startQuiz">
-      <h3>Let us know how we can call you</h3>
-      <form id = formOne>
-        <div class = "well">
-          <div class = "form-group">
-            <input id = "user1" class = "form-control" type = "text">
+        <h3>Let us know how we can call you</h3>
+        <form id = formOne>
+          <div class = "well">
+            <div class = "form-group">
+              <input id = "user1" class = "form-control" type = "text">
+            </div>
           </div>
-        </div>
 
-        <h3>Please select your gender</h3>
-        <div class = "well">
-          <select class = "form-control" id = "gender">
-            <option>Male</option>
-            <option>Female</option>
-            <option>Bigender</option>
-            <option>I prefere not to answer</option>
-          </select>
-        </div>
+          <h3>Please select your gender</h3>
+          <div class = "well">
+            <select class = "form-control" id = "gender">
+              <option>Male</option>
+              <option>Female</option>
+              <option>Bigender</option>
+              <option>I prefere not to answer</option>
+            </select>
+          </div>
 
-        <h3>Do you already know a programming language?</h3>
-        <div class = "well">
-          <!--<img src = "https://miro.medium.com/max/10000/1*HLGtY6O2vUHqIyEbWdmBgA.jpeg" alt = "programming language picture">-->
-          <div class = "radio">
-            <label>
-              <input type = "radio" name = "anyLanguages" value = "No" checked>
-              No, i do not
-            </label>
+          <h3>Do you already know a programming language?</h3>
+          <div class = "well">
+            <div class = "radio">
+              <label>
+                <input type = "radio" name = "anyLanguages" value = "No" checked>
+                No, i do not
+              </label>
+            </div>
+            <div class = "radio">
+              <label>
+                <input type = "radio" name = "anyLanguages" value = "one">
+                Only one
+              </label>
+            </div>
+            <div class = "radio">
+              <label>
+                <input type = "radio" name = "anyLanguages" value = "few">
+                Just a few
+              </label>
+            </div>
+            <div class = "radio">
+              <label>
+                <input type = "radio" name = "anyLanguages" value = "more">
+                More then three!
+              </label>
+            </div>
           </div>
-          <div class = "radio">
-            <label>
-              <input type = "radio" name = "anyLanguages" value = "one">
-              Only one
-            </label>
-          </div>
-          <div class = "radio">
-            <label>
-              <input type = "radio" name = "anyLanguages" value = "few">
-              Just a few
-            </label>
-          </div>
-          <div class = "radio">
-            <label>
-              <input type = "radio" name = "anyLanguages" value = "more">
-              More then three!
-            </label>
-          </div>
-        </div>
 
-        <h3>Which platform or field would you like to work in?</h3>
-        <div class = "well">
-          <select class = "form-control" id = "work">
-            <option>Web</option>
-            <option>Mobile</option>
-            <option>Enterprise</option>
-            <option>Gaming</option>
-          </select>
-        </div>
+          <h3>Which platform or field would you like to work in?</h3>
+          <div class = "well">
+            <select class = "form-control" id = "work">
+              <option>Web</option>
+              <option>Mobile</option>
+              <option>Enterprise</option>
+              <option>Gaming</option>
+            </select>
+          </div>
 
-        <h3>What kind of company would you rather work for?</h3>
-        <div class = "well">
-          <div class = "radio">
-            <label>
-              <input type = "radio" name = "company" value = "corporate">
-              Corporate Company
-            </label>
+          <h3>What kind of company would you rather work for?</h3>
+          <div class = "well">
+            <div class = "radio">
+              <label>
+                <input type = "radio" name = "company" value = "corporate">
+                Corporate Company
+              </label>
+            </div>
+            <div class = "radio">
+              <label>
+                <input type = "radio" name = "company" value = "small">
+                Somewhere small but well established
+              </label>
+            </div>
+            <div class = "radio">
+              <label>
+                <input type = "radio" name = "company" value = "startup">
+                Startup
+              </label>
+            </div>
           </div>
-          <div class = "radio">
-            <label>
-              <input type = "radio" name = "company" value = "small">
-              Somewhere small but well established
-            </label>
-          </div>
-          <div class = "radio">
-            <label>
-              <input type = "radio" name = "company" value = "startup">
-              Startup
-            </label>
-          </div>
-        </div>
 
-        <h3>Do you like to learn new things?</h3>
-        <div class = "well">
-          <div class = "radio">
-            <label>
-              <input type = "radio" name = "newThings" value = "yes">
-              Of course!
-            </label>
+          <h3>Do you like to learn new things?</h3>
+          <div class = "well">
+            <div class = "radio">
+              <label>
+                <input type = "radio" name = "newThings" value = "yes">
+                Of course!
+              </label>
+            </div>
+            <div class = "radio">
+              <label>
+                <input type = "radio" name = "newThings" value = "not">
+                Not really
+              </label>
+            </div>
+            <div class = "radio">
+              <label>
+                <input type = "radio" name = "newThings" value = "timeToTime">
+                From time to time
+              </label>
+            </div>
+            <div class = "radio">
+              <label>
+                <input type = "radio" name = "newThings" value = "stuck">
+                I am pretty stuck in my ways
+              </label>
+            </div>
           </div>
-          <div class = "radio">
-            <label>
-              <input type = "radio" name = "newThings" value = "not">
-              Not really
-            </label>
-          </div>
-          <div class = "radio">
-            <label>
-              <input type = "radio" name = "newThings" value = "timeToTime">
-              From time to time
-            </label>
-          </div>
-          <div class = "radio">
-            <label>
-              <input type = "radio" name = "newThings" value = "stuck">
-              I am pretty stuck in my ways
-            </label>
-          </div>
-        </div>
 
-        <h3>Do you believe in jobs for life?</h3>
-        <div class = "well">
-          <div class = "radio">
-            <label>
-              <input type = "radio" name = "jobs" value = "no">
-              No, that's a fairytale
-            </label>
+          <h3>Do you believe in jobs for life?</h3>
+          <div class = "well">
+            <div class = "radio">
+              <label>
+                <input type = "radio" name = "jobs" value = "no">
+                No, that's a fairytale
+              </label>
+            </div>
+            <div class = "radio">
+              <label>
+                <input type = "radio" name = "jobs" value = "wish">
+                I wish
+              </label>
+            </div>
+            <div class = "radio">
+              <label>
+                <input type = "radio" name = "jobs" value = "usedTo">
+                I don't but I used to
+              </label>
+            </div>
+            <div class = "radio">
+              <label>
+                <input type = "radio" name = "jobs" value = "yes">
+                Yes, please
+              </label>
+            </div>
           </div>
-          <div class = "radio">
-            <label>
-              <input type = "radio" name = "jobs" value = "wish">
-              I wish
-            </label>
-          </div>
-          <div class = "radio">
-            <label>
-              <input type = "radio" name = "jobs" value = "usedTo">
-              I don't but I used to
-            </label>
-          </div>
-          <div class = "radio">
-            <label>
-              <input type = "radio" name = "jobs" value = "yes">
-              Yes, please
-            </label>
-          </div>
-        </div>
-        <button type = "submit" class = "btn btn-info btn-lg" id = "myBtn">Submit!</button>
-      </form>
+          <button type = "submit" class = "btn btn-info btn-lg" id = "myBtn">Submit!</button>
+        </form>
       </div>
 
       <div class = "result" id = "java">
