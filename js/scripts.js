@@ -1,10 +1,4 @@
 $(document).ready(function() {
-
-  $("#myBtn1").click(function(){
-    $("#startQuiz").show();
-    event.preventDefault(); 
-  });
-
   $("form#formOne").submit(function(event) {
     event.preventDefault();
 
@@ -16,21 +10,25 @@ $(document).ready(function() {
     var newThings = $("input:radio[name=newThings]:checked").val();
     var jobForLife = $("input:radio[name=jobs]:checked").val();
 
-
     if ((userGender === "Male" || userGender === "Female") && anyLanguages !== "No" && userCompany === "startup") {
       $("#kotlin").show();
     } else if (userGender !== "Female" && (newThings === "yes" || newThings === "timeToTime") && jobForLife === "wish" && userCompany !== "corporate"){
       $("#java").show();
     } else if ((newThings === "stuck" || newThings === "not" || newThings === "timeToTime") && workField !== "corporate"){
       $("#python").show();
-    } else if ((jobForLife === "no" || jobForLife === "wish") && Gender !== "I prefere not to answer") {
-      $("#ruby").show();
+    } else if (jobForLife === "wish" && Gender !== "I prefere not to answer" && workField === "corporate") {
+     $("#ruby").show();
     } else {
       alert("We are really sorry but programming is not for you");
     }
 
     $(".fullname").append(userName);
   
+  });
+
+  $("#myBtn1").click(function(){
+    $("#startQuiz").show();
+    event.preventDefault(); 
   });
 
   
