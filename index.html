@@ -5,8 +5,6 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.4.1.js"></script>
     <script src="js/scripts.js"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <title>Programming Languages Quiz</title>
   </head>
   <body>
@@ -14,124 +12,138 @@
 
       <h1>Programming Languages Quiz</h1>
       <h2>Please fill up the form below to understand which programming language is better for you</h2>
+      <h3>Let us know how we can call you</h3>
       <form id = formOne>
-        <div class = "form-group">
-          <label for = "user1">Let us know how we can call you</label>
-          <input id = "user1" class = "form-control" type = "text">
+        <div class = "well">
+          <div class = "form-group">
+            <input id = "user1" class = "form-control" type = "text">
+          </div>
         </div>
 
         <h3>Please select your gender</h3>
-        <select class = "form-control" id = "gender">
-          <option>Male</option>
-          <option>Female</option>
-          <option>Bigender</option>
-          <option>I prefere not to answer</option>
-        </select>
+        <div class = "well">
+          <select class = "form-control" id = "gender">
+            <option>Male</option>
+            <option>Female</option>
+            <option>Bigender</option>
+            <option>I prefere not to answer</option>
+          </select>
+        </div>
 
         <h3>Do you already know a programming language?</h3>
-        <div class = "radio">
-          <label>
-            <input type = "radio" name = "anyLanguages" value = "No" checked>
-            No, i do not
-          </label>
-        </div>
-        <div class = "radio">
-          <label>
-            <input type = "radio" name = "anyLanguages" value = "one">
-            Only one
-          </label>
-        </div>
-        <div class = "radio">
-          <label>
-            <input type = "radio" name = "anyLanguages" value = "few">
-            Just a few
-          </label>
-        </div>
-        <div class = "radio">
-          <label>
-            <input type = "radio" name = "anyLanguages" value = "more">
-            More then three!
-          </label>
+        <div class = "well">
+          <div class = "radio">
+            <label>
+              <input type = "radio" name = "anyLanguages" value = "No" checked>
+              No, i do not
+            </label>
+          </div>
+          <div class = "radio">
+            <label>
+              <input type = "radio" name = "anyLanguages" value = "one">
+              Only one
+            </label>
+          </div>
+          <div class = "radio">
+            <label>
+              <input type = "radio" name = "anyLanguages" value = "few">
+              Just a few
+            </label>
+          </div>
+          <div class = "radio">
+            <label>
+              <input type = "radio" name = "anyLanguages" value = "more">
+              More then three!
+            </label>
+          </div>
         </div>
 
         <h3>Which platform or field would you like to work in?</h3>
-        <select class = "form-control" id = "work">
-          <option>Web</option>
-          <option>Mobile</option>
-          <option>Enterprise</option>
-          <option>Gaming</option>
-        </select>
+        <div class = "well">
+          <select class = "form-control" id = "work">
+            <option>Web</option>
+            <option>Mobile</option>
+            <option>Enterprise</option>
+            <option>Gaming</option>
+          </select>
+        </div>
 
         <h3>What kind of company would you rather work for?</h3>
-        <div class = "radio">
-          <label>
-            <input type = "radio" name = "company" value = "corporate">
-            Corporate Company
-          </label>
-        </div>
-        <div class = "radio">
-          <label>
-            <input type = "radio" name = "company" value = "small">
-            Somewhere small but well established
-          </label>
-        </div>
-        <div class = "radio">
-          <label>
-            <input type = "radio" name = "company" value = "startup">
-            Startup
-          </label>
+        <div class = "well">
+          <div class = "radio">
+            <label>
+              <input type = "radio" name = "company" value = "corporate">
+              Corporate Company
+            </label>
+          </div>
+          <div class = "radio">
+            <label>
+              <input type = "radio" name = "company" value = "small">
+              Somewhere small but well established
+            </label>
+          </div>
+          <div class = "radio">
+            <label>
+              <input type = "radio" name = "company" value = "startup">
+              Startup
+            </label>
+          </div>
         </div>
 
         <h3>Do you like to learn new things?</h3>
-        <div class = "radio">
-          <label>
-            <input type = "radio" name = "newThings" value = "yes">
-            Of course!
-          </label>
-        </div>
-        <div class = "radio">
-          <label>
-            <input type = "radio" name = "newThings" value = "not">
-            Not really
-          </label>
-        </div>
-        <div class = "radio">
-          <label>
-            <input type = "radio" name = "newThings" value = "timeToTime">
-            From time to time
-          </label>
-        </div>
-        <div class = "radio">
-          <label>
-            <input type = "radio" name = "newThings" value = "stuck">
-            I am pretty stuck in my ways
-          </label>
+        <div class = "well">
+          <div class = "radio">
+            <label>
+              <input type = "radio" name = "newThings" value = "yes">
+              Of course!
+            </label>
+          </div>
+          <div class = "radio">
+            <label>
+              <input type = "radio" name = "newThings" value = "not">
+              Not really
+            </label>
+          </div>
+          <div class = "radio">
+            <label>
+              <input type = "radio" name = "newThings" value = "timeToTime">
+              From time to time
+            </label>
+          </div>
+          <div class = "radio">
+            <label>
+              <input type = "radio" name = "newThings" value = "stuck">
+              I am pretty stuck in my ways
+            </label>
+          </div>
         </div>
 
         <h3>Do you believe in jobs for life?</h3>
-        <div class = "radio">
-          <label>
-            <input type = "radio" name = "jobs" value = "no">
-            No, that's a fairytale
-          </label>
-        </div>
-        <div class = "radio">
-          <label>
-            <input type = "radio" name = "jobs" value = "wish">
-            I wish
-          </label>
-        </div>
-        <div class = "radio">
-          <label>
-            <input type = "radio" name = "jobs" value = "usedTo">
-            I don't but I used to
-          </label>
-        </div>
-        <div class = "radio">
-          <label>
-            <input type = "radio" name = "jobs" value = "yes">
-            Yes, please
-          </label>
+        <div class = "well">
+          <div class = "radio">
+            <label>
+              <input type = "radio" name = "jobs" value = "no">
+              No, that's a fairytale
+            </label>
+          </div>
+          <div class = "radio">
+            <label>
+              <input type = "radio" name = "jobs" value = "wish">
+              I wish
+            </label>
+          </div>
+          <div class = "radio">
+            <label>
+              <input type = "radio" name = "jobs" value = "usedTo">
+              I don't but I used to
+            </label>
+          </div>
+          <div class = "radio">
+            <label>
+              <input type = "radio" name = "jobs" value = "yes">
+              Yes, please
+            </label>
+          </div>
         </div>
         <button type = "submit" class = "btn btn-info btn-lg" id = "myBtn">Submit!</button>
       </form>
