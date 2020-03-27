@@ -17,7 +17,7 @@ img:not(.mainImage) {
 
 body {
   font-family: serif;
-  background-color: bisque;
+  background-color: rgb(234, 239, 241);
 }
 
 h1 {
