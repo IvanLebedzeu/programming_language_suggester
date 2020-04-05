@@ -7,6 +7,8 @@ img:not(.mainImage) {
   height: 400px; 
 }
 
+
+
 .mainImage {
   display: block;
   margin-left: auto;
